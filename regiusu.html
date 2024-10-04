@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="regiusu.css">
+
+  <title>Formulario Registro</title>
+</head>
+
+
+
+<body>
+<!--BARRA DE NAVEGACION-->
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="UninpahuParkLogo.jpg" alt="UninpahuPark Xperience" width="100" height="100" class="d-inline-block align-top">
+        UninpahuPark Xperience
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pagprincipal.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://uninpahu.edu.co/">Universidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contáctanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buy.html">Pago</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Registros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="regiusu.html">Registro de Usuarios</a></li>
+              <li><a class="dropdown-item" href="regivehi.html">Registro de Vehículos</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--barra de navegacion que se extiende-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- creacion de formulario de registro -->
+<!-- creacion de obtencion de datos del registro usando el metodo post -->
+
+
+  
+
+  
+
+  <section class="form-register">
+    <h1 style="font-size: 3rem; font-weight: bold;"><center>Uninpahu Park Xperience</center></h1>
+    <h1>Registro</h1>
+    <p>Ingrese los siguientes datos para el registro.</p>
+    <hr>
+    
+    <div>
+        <form action="form.php" method="post">
+    
+    <label for="cedula"><b>Cedula</b></label>
+    <input class="controls" type="number" placeholder=" Ingrese la cedula" name="cedula" id="cedula" required>
+    <br> 
+
+    <label for="psw"><b>Contraseña</b></label>
+    <input class="controls" type="password" placeholder=" Cree Contraseña" name="psw" id="psw" required>
+    <br>
+
+    <label for="psw-repeat"><b>Repita Contraseña</b></label>
+    <input class="controls" type="password" placeholder=" Confirme contraseña" name="psw-repeat" id="psw-repeat" required>
+    <br>
+
+    <label for="nombre"><b>Nombre</b></label>
+    <input class="controls" type="text" placeholder=" Digite nombre" name="nombre" id="nombre" required>
+    <br>
+
+    <label for="apellido"><b>Apellido</b></label>
+    <input class="controls" type="text" placeholder=" Digite apellido" name="apellido" id="apellido" required>
+    <br>
+
+    <label for="celular"><b>Celular</b></label>
+    <input class="controls" type="tel" placeholder=" Digite numero de celular" name="celular" id="celular" required>
+    <br>
+
+    <label for="carnet"><b>Codigo carnet</b></label>
+    <input class="controls" type="number" placeholder=" Digite codigo de carnet" name="carnet" id="carnet" required>
+    <br>
+
+
+    <button type="submit" class="registerbtn">Registrarse</button>
+    
+</div>
+</form>
+</section>
+
+<Br>
+  <Br>
+    <Br>
+<!--PIE DE PAGINA-->
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>Ubicación</h3>
+          <p>calle 42 # 16-50 
+            Bogotá - Colombia <br>Bogotá - Colombia</p>
+      </div>
+      <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>PBX<br>+57 (601) 3323500</p>
+          <p>Servicio al cliente<br> +57 320 843 2343</p>
+          <p><a href="uninpahu@uninpahu.edu.co">uninpahu@uninpahu.edu.co</a></p>
+      </div>
+      <div class="footer-section">
+          <h3>Legal</h3>
+          <p><a href="#">Términos y condiciones</a><br><a href="#">Políticas de privacidad</a></p>
+          <p><a href="#">Superintendencia de Industria y Comercio</a></p>
+          <p><a href="#">Cumplimiento</a></p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 UninpahuParkXperience - Todos los derechos reservados</p>
+  </div>
+</footer>
+
+</body>
+</html>

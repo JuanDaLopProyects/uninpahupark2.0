@@ -1,0 +1,78 @@
+body{
+    background-image: url('fondo.jpg');
+    
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    height: auto;
+    width: auto;
+    
+    font-family: 'calibri';
+    color: black;
+}
+
+.usuario{
+    font-size: 40px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-bottom: auto;
+    width: 60%;
+
+    font-family: 'calibri';
+    color: #000;
+}
+.contraseña{
+    font-size: 40px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 60%;
+    margin-bottom: auto;
+
+    font-family: 'calibri';
+    color: black;
+
+}
+
+input[type=text],[type=password] {
+    height: 13%;
+    padding: 12px 30px;
+    margin: 3px;
+    width: 600px;
+    margin-bottom: auto;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ccc; 
+    float: inline-end;
+    
+}
+
+img{
+   float: right;
+   margin-right: 100px;
+   
+}
+.remember{
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 10%;
+    width: 380px;
+    margin-left: 50px;
+}
+button:hover{
+    background-color: #044f34;
+}
